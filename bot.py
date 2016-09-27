@@ -28,10 +28,10 @@ def mails(m):
         parts = mail.split('@')
         tm = TempMail(login=parts[0], domain='@'+parts[1])
         mails = tm.get_mailbox()
-        if  not mails :
+        if not mails :
                 bot.send_message(m.from_user.id, 'There is no email...')
         else:
-            if 'error' in mails or not mails :
+            if 'error' in mails :
                 bot.send_message(m.from_user.id, 'There is no email...')
             else:
                 print mails
