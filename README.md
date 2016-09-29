@@ -1,15 +1,13 @@
-# Email-Bot
+# FakeMail
 Make disposable emails and use them for recieving emails.
 
 You can develop the bot and add keyboard & etc.
 
 Dev Info:
 
-Email: Prsahrn@gmail.com
-
 Telegram: [Parsa](http://telegram.me/prsahrn)
 
-Powered By: [iTeam](http://telegram.me/iteam_en)
+Powered By: [JackTeam](http://telegram.me/JackTeam)
 
 ## Installation
 **Ubuntu:**
@@ -24,10 +22,11 @@ sudo pip install temp-mail
 ```
 * Then we clone Repo and run bot.py
 ```
-git clone https://github.com/iTeam-co/Email-Bot.git
-cd Email-Bot
+git clone https://github.com/JackTelegram/FakeMail
+cd FakeMail
 ```
 *Edit bot.py file and add your Bot Token to line 5 then:*
+ 5در لاینBot.py نکته توکن را اضافه کنید در 
 
 ```
 python2 bot.py
